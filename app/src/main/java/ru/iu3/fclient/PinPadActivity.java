@@ -67,22 +67,10 @@ public class PinPadActivity extends Activity {
         if(sz<4){
             pin+=key;
             tvPin.setText(pin);
-//            tvPin.setText("****".substring(3-sz));
+            tvPin.setText("****".substring(3-sz));
         }
     }
 
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if(requestCode == 0)
-        {
-            if (resultCode == RESULT_OK || data != null)
-            {
-                String pin = data.getStringExtra("pin");
-                Toast.makeText(this, "222", Toast.LENGTH_SHORT).show();
-            }
-        }
-    }
 
     final int MAX_KEYS = 10;
     protected void ShuffleKeys(){

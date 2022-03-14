@@ -2,6 +2,7 @@ package ru.iu3.fclient;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -17,7 +18,7 @@ import org.apache.commons.codec.binary.Hex;
 
 import java.util.Locale;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     // Used to load the 'fclient' library on application startup.
     static {
@@ -36,17 +37,17 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener((View v) -> {
             onButtonClick(v);
         });
-        int res=initRng();
+        int res = initRng();
         Log.i("fclient", "Init Rng = " + res);
 
-        byte[] v =randomBytes(10);
-//        binding = ActivityMainBinding.inflate(getLayoutInflater());
-//        setContentView(binding.getRoot());
-//
-//        // Example of a call to a native method
-//        TextView tv = binding.sampleText;
-//        TextView tv =findViewById(R.id.sample_text);
-//        tv.setText(stringFromJNI());
+        byte[] v = randomBytes(10);
+        // binding = ActivityMainBinding.inflate(getLayoutInflater());
+        // setContentView(binding.getRoot());
+        //
+        // // Example of a call to a native method
+        // TextView tv = binding.sampleText;
+        // TextView tv =findViewById(R.id.sample_text);
+        // tv.setText(stringFromJNI());
     }
 
     /**
@@ -54,29 +55,43 @@ public class MainActivity extends AppCompatActivity {
      * which is packaged with this application.
      */
     public native String stringFromJNI();
-    public static native int initRng();
-    public static native byte[] randomBytes(int no);
-    public static native byte[] encrypt(byte[] key,byte[] data);
-    public static native byte[] decrypt(byte[] key,byte[] data);
 
-    public static byte[] StringToHex(String s){
+    public static native int initRng();
+
+    public static native byte[] randomBytes(int no);
+
+    public static native byte[] encrypt(byte[] key, byte[] data);
+
+    public static native byte[] decrypt(byte[] key, byte[] data);
+
+    public static byte[] StringToHex(String s) {
         byte[] hex;
-        try{
-            hex= Hex.decodeHex(s.toCharArray());
-        }
-        catch(DecoderException ex){
-            hex=null;
+        try {
+            hex = Hex.decodeHex(s.toCharArray());
+        } catch (DecoderException ex) {
+            hex = null;
         }
         return hex;
     }
 
     public void onButtonClick(View view) {
-//        byte[] key=StringToHex("0123456789ABCDEF0123456789ABCDEF");
-//        byte[] enc=encrypt(key, StringToHex("000000000000000102"));
-//        byte[] dec=decrypt(key,enc);
-//        String s = new String (Hex.encodeHex(dec)).toUpperCase();
-//        Toast.makeText(this,s,Toast.LENGTH_SHORT).show();
+        // byte[] key=StringToHex("0123456789ABCDEF0123456789ABCDEF");
+        // byte[] enc=encrypt(key, StringToHex("000000000000000102"));
+        // byte[] dec=decrypt(key,enc);
+        // String s = new String (Hex.encodeHex(dec)).toUpperCase();
+        // Toast.makeText(this,s,Toast.LENGTH_SHORT).show();
         Intent it = new Intent(this, PinPadActivity.class);
-        startActivityForResult(it,0);
+        startActivityForResult(it, 0);
+    }
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if(requestCode == 0)
+        {
+            if (resultCode == RESULT_OK || data != null)
+            {
+                String pin = data.getStringExtra("pin");
+                Toast.makeText(this, pin, Toast.LENGTH_SHORT).show();
+            }
+        }
     }
 }
