@@ -1,4 +1,4 @@
-# Install script for directory: /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs
+# Install script for directory: /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,22 +39,22 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-objdump")
+  set(CMAKE_OBJDUMP "/home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/i686-linux-android-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/aes/cmake_install.cmake")
-  include("/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/cipher/cmake_install.cmake")
-  include("/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/fuzz/cmake_install.cmake")
-  include("/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/hash/cmake_install.cmake")
-  include("/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/pkey/cmake_install.cmake")
-  include("/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/psa/cmake_install.cmake")
-  include("/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/random/cmake_install.cmake")
-  include("/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/ssl/cmake_install.cmake")
-  include("/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/test/cmake_install.cmake")
-  include("/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/util/cmake_install.cmake")
-  include("/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/x509/cmake_install.cmake")
+  include("/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/aes/cmake_install.cmake")
+  include("/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/cipher/cmake_install.cmake")
+  include("/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/fuzz/cmake_install.cmake")
+  include("/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/hash/cmake_install.cmake")
+  include("/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/pkey/cmake_install.cmake")
+  include("/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/psa/cmake_install.cmake")
+  include("/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/random/cmake_install.cmake")
+  include("/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/ssl/cmake_install.cmake")
+  include("/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/test/cmake_install.cmake")
+  include("/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/util/cmake_install.cmake")
+  include("/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/x509/cmake_install.cmake")
 
 endif()
 

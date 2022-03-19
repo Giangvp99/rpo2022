@@ -62,10 +62,10 @@ RM = /home/giangvp99/Android/Sdk/cmake/3.18.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls
+CMAKE_SOURCE_DIR = /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86
+CMAKE_BINARY_DIR = /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86
 
 # Include any dependencies generated for this target.
 include programs/test/CMakeFiles/dlopen.dir/depend.make
@@ -77,17 +77,17 @@ include programs/test/CMakeFiles/dlopen.dir/progress.make
 include programs/test/CMakeFiles/dlopen.dir/flags.make
 
 programs/test/CMakeFiles/dlopen.dir/dlopen.c.o: programs/test/CMakeFiles/dlopen.dir/flags.make
-programs/test/CMakeFiles/dlopen.dir/dlopen.c.o: /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs/test/dlopen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object programs/test/CMakeFiles/dlopen.dir/dlopen.c.o"
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/test && /home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlopen.dir/dlopen.c.o -c /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs/test/dlopen.c
+programs/test/CMakeFiles/dlopen.dir/dlopen.c.o: /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs/test/dlopen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object programs/test/CMakeFiles/dlopen.dir/dlopen.c.o"
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/test && /home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlopen.dir/dlopen.c.o -c /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs/test/dlopen.c
 
 programs/test/CMakeFiles/dlopen.dir/dlopen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlopen.dir/dlopen.c.i"
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/test && /home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs/test/dlopen.c > CMakeFiles/dlopen.dir/dlopen.c.i
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/test && /home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs/test/dlopen.c > CMakeFiles/dlopen.dir/dlopen.c.i
 
 programs/test/CMakeFiles/dlopen.dir/dlopen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlopen.dir/dlopen.c.s"
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/test && /home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs/test/dlopen.c -o CMakeFiles/dlopen.dir/dlopen.c.s
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/test && /home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs/test/dlopen.c -o CMakeFiles/dlopen.dir/dlopen.c.s
 
 # Object files for target dlopen
 dlopen_OBJECTS = \
@@ -99,8 +99,8 @@ dlopen_EXTERNAL_OBJECTS =
 programs/test/dlopen: programs/test/CMakeFiles/dlopen.dir/dlopen.c.o
 programs/test/dlopen: programs/test/CMakeFiles/dlopen.dir/build.make
 programs/test/dlopen: programs/test/CMakeFiles/dlopen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable dlopen"
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dlopen.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable dlopen"
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dlopen.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 programs/test/CMakeFiles/dlopen.dir/build: programs/test/dlopen
@@ -108,10 +108,10 @@ programs/test/CMakeFiles/dlopen.dir/build: programs/test/dlopen
 .PHONY : programs/test/CMakeFiles/dlopen.dir/build
 
 programs/test/CMakeFiles/dlopen.dir/clean:
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/test && $(CMAKE_COMMAND) -P CMakeFiles/dlopen.dir/cmake_clean.cmake
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/test && $(CMAKE_COMMAND) -P CMakeFiles/dlopen.dir/cmake_clean.cmake
 .PHONY : programs/test/CMakeFiles/dlopen.dir/clean
 
 programs/test/CMakeFiles/dlopen.dir/depend:
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs/test /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86 /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/test /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/test/CMakeFiles/dlopen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs/test /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86 /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/test /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/test/CMakeFiles/dlopen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : programs/test/CMakeFiles/dlopen.dir/depend
 

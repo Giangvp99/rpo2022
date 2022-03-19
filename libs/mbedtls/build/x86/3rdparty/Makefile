@@ -67,10 +67,10 @@ RM = /home/giangvp99/Android/Sdk/cmake/3.18.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls
+CMAKE_SOURCE_DIR = /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86
+CMAKE_BINARY_DIR = /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_progress_start /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/3rdparty//CMakeFiles/progress.marks
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles 0
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_progress_start /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/3rdparty//CMakeFiles/progress.marks
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/clean
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,17 +162,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/preinstall
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/preinstall
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -198,6 +198,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

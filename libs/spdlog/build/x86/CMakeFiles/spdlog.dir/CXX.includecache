@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/async.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/async.h
 spdlog/async_logger.h
 -
 spdlog/details/registry.h
@@ -20,7 +20,7 @@ mutex
 functional
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/async_logger-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/async_logger-inl.h
 spdlog/async_logger.h
 -
 spdlog/sinks/sink.h
@@ -32,13 +32,13 @@ memory
 string
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/async_logger.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/async_logger.h
 spdlog/logger.h
 -
 async_logger-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/async_logger-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/async_logger-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/cfg/helpers-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/cfg/helpers-inl.h
 spdlog/cfg/helpers.h
 -
 spdlog/spdlog.h
@@ -56,15 +56,15 @@ utility
 sstream
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/cfg/helpers.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/cfg/helpers.h
 spdlog/common.h
 -
 unordered_map
 -
 helpers-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/cfg/helpers-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/cfg/helpers-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/common-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/common-inl.h
 spdlog/common.h
 -
 algorithm
@@ -72,7 +72,7 @@ algorithm
 iterator
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/common.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/common.h
 spdlog/tweakme.h
 -
 spdlog/details/null_mutex.h
@@ -102,13 +102,13 @@ spdlog/fmt/fmt.h
 spdlog/fmt/xchar.h
 -
 common-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/common-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/common-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/backtracer-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/backtracer-inl.h
 spdlog/details/backtracer.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/backtracer.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/backtracer.h
 spdlog/details/log_msg_buffer.h
 -
 spdlog/details/circular_q.h
@@ -120,21 +120,21 @@ mutex
 functional
 -
 backtracer-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/backtracer-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/backtracer-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/circular_q.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/circular_q.h
 vector
 -
 cassert
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/console_globals.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/console_globals.h
 spdlog/details/null_mutex.h
 -
 mutex
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/file_helper-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/file_helper-inl.h
 spdlog/details/file_helper.h
 -
 spdlog/details/os.h
@@ -154,15 +154,15 @@ thread
 tuple
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/file_helper.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/file_helper.h
 spdlog/common.h
 -
 tuple
 -
 file_helper-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/file_helper-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/file_helper-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/fmt_helper.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/fmt_helper.h
 chrono
 -
 type_traits
@@ -178,31 +178,31 @@ charconv
 limits
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/log_msg-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/log_msg-inl.h
 spdlog/details/log_msg.h
 -
 spdlog/details/os.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/log_msg.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/log_msg.h
 spdlog/common.h
 -
 string
 -
 log_msg-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/log_msg-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/log_msg-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer-inl.h
 spdlog/details/log_msg_buffer.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer.h
 spdlog/details/log_msg.h
 -
 log_msg_buffer-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/mpmc_blocking_q.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/mpmc_blocking_q.h
 spdlog/details/circular_q.h
 -
 condition_variable
@@ -210,13 +210,13 @@ condition_variable
 mutex
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/null_mutex.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/null_mutex.h
 atomic
 -
 utility
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/os-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/os-inl.h
 spdlog/details/os.h
 -
 spdlog/common.h
@@ -270,19 +270,19 @@ lwp.h
 thread.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/os.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/os.h
 spdlog/common.h
 -
 ctime
 -
 os-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/os-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/os-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/periodic_worker-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/periodic_worker-inl.h
 spdlog/details/periodic_worker.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/periodic_worker.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/periodic_worker.h
 chrono
 -
 condition_variable
@@ -294,9 +294,9 @@ mutex
 thread
 -
 periodic_worker-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/periodic_worker-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/periodic_worker-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/registry-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/registry-inl.h
 spdlog/details/registry.h
 -
 spdlog/common.h
@@ -322,7 +322,7 @@ string
 unordered_map
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/registry.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/registry.h
 spdlog/common.h
 -
 chrono
@@ -338,13 +338,13 @@ unordered_map
 mutex
 -
 registry-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/registry-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/registry-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/synchronous_factory.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/synchronous_factory.h
 registry.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/registry.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/registry.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/thread_pool-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/thread_pool-inl.h
 spdlog/details/thread_pool.h
 -
 spdlog/common.h
@@ -352,7 +352,7 @@ spdlog/common.h
 cassert
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/thread_pool.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/thread_pool.h
 spdlog/details/log_msg_buffer.h
 -
 spdlog/details/mpmc_blocking_q.h
@@ -370,13 +370,13 @@ vector
 functional
 -
 thread_pool-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/thread_pool-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/thread_pool-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/details/windows_include.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/details/windows_include.h
 windows.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/fmt/bundled/core.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/fmt/bundled/core.h
 cstddef
 -
 cstdio
@@ -398,9 +398,9 @@ experimental/string_view
 fmt/core.h
 -
 format.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format-inl.h
 algorithm
 -
 cctype
@@ -424,9 +424,9 @@ locale
 io.h
 -
 format.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
 cmath
 -
 cstdint
@@ -444,25 +444,25 @@ utility
 bit
 -
 core.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/fmt/bundled/core.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/fmt/bundled/core.h
 intrin.h
 -
 fmt/format.h
 -
 xchar.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/fmt/bundled/xchar.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/fmt/bundled/xchar.h
 format-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/fmt/bundled/xchar.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/fmt/bundled/xchar.h
 cwchar
 -
 tuple
 -
 format.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/fmt/fmt.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/fmt/fmt.h
 format
 -
 spdlog/fmt/bundled/core.h
@@ -474,19 +474,19 @@ fmt/core.h
 fmt/format.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/fmt/xchar.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/fmt/xchar.h
 spdlog/fmt/bundled/xchar.h
 -
 fmt/xchar.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/formatter.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/formatter.h
 spdlog/fmt/fmt.h
 -
 spdlog/details/log_msg.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/logger-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/logger-inl.h
 spdlog/logger.h
 -
 spdlog/sinks/sink.h
@@ -498,7 +498,7 @@ spdlog/pattern_formatter.h
 cstdio
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/logger.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/logger.h
 spdlog/common.h
 -
 spdlog/details/log_msg.h
@@ -510,9 +510,9 @@ spdlog/details/os.h
 vector
 -
 logger-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/logger-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/logger-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/pattern_formatter-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/pattern_formatter-inl.h
 spdlog/pattern_formatter.h
 -
 spdlog/details/fmt_helper.h
@@ -552,7 +552,7 @@ utility
 vector
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/pattern_formatter.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/pattern_formatter.h
 spdlog/common.h
 -
 spdlog/details/log_msg.h
@@ -574,9 +574,9 @@ vector
 unordered_map
 -
 pattern_formatter-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/pattern_formatter-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/pattern_formatter-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h
 spdlog/sinks/ansicolor_sink.h
 -
 spdlog/pattern_formatter.h
@@ -584,7 +584,7 @@ spdlog/pattern_formatter.h
 spdlog/details/os.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink.h
 spdlog/details/console_globals.h
 -
 spdlog/details/null_mutex.h
@@ -600,9 +600,9 @@ string
 array
 -
 ansicolor_sink-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/base_sink-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/base_sink-inl.h
 spdlog/sinks/base_sink.h
 -
 spdlog/common.h
@@ -612,7 +612,7 @@ spdlog/pattern_formatter.h
 memory
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/base_sink.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/base_sink.h
 spdlog/common.h
 -
 spdlog/details/log_msg.h
@@ -620,9 +620,9 @@ spdlog/details/log_msg.h
 spdlog/sinks/sink.h
 -
 base_sink-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/base_sink-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/base_sink-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink-inl.h
 spdlog/sinks/basic_file_sink.h
 -
 spdlog/common.h
@@ -630,7 +630,7 @@ spdlog/common.h
 spdlog/details/os.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink.h
 spdlog/details/file_helper.h
 -
 spdlog/details/null_mutex.h
@@ -644,9 +644,9 @@ mutex
 string
 -
 basic_file_sink-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h
 spdlog/sinks/rotating_file_sink.h
 -
 spdlog/common.h
@@ -670,7 +670,7 @@ string
 tuple
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink.h
 spdlog/sinks/base_sink.h
 -
 spdlog/details/file_helper.h
@@ -686,23 +686,23 @@ mutex
 string
 -
 rotating_file_sink-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/sink-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/sink-inl.h
 spdlog/sinks/sink.h
 -
 spdlog/common.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/sink.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/sink.h
 spdlog/details/log_msg.h
 -
 spdlog/formatter.h
 -
 sink-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/sink-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/sink-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
 spdlog/sinks/stdout_color_sinks.h
 -
 spdlog/logger.h
@@ -710,7 +710,7 @@ spdlog/logger.h
 spdlog/common.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks.h
 spdlog/sinks/wincolor_sink.h
 -
 spdlog/sinks/ansicolor_sink.h
@@ -718,9 +718,9 @@ spdlog/sinks/ansicolor_sink.h
 spdlog/details/synchronous_factory.h
 -
 stdout_color_sinks-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/stdout_sinks-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/stdout_sinks-inl.h
 spdlog/sinks/stdout_sinks.h
 -
 spdlog/details/console_globals.h
@@ -738,7 +738,7 @@ io.h
 stdio.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/stdout_sinks.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/stdout_sinks.h
 spdlog/details/console_globals.h
 -
 spdlog/details/synchronous_factory.h
@@ -750,9 +750,9 @@ cstdio
 spdlog/details/windows_include.h
 -
 stdout_sinks-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/stdout_sinks-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/stdout_sinks-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
 spdlog/sinks/wincolor_sink.h
 -
 spdlog/details/windows_include.h
@@ -764,7 +764,7 @@ spdlog/common.h
 spdlog/pattern_formatter.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink.h
 spdlog/common.h
 -
 spdlog/details/console_globals.h
@@ -784,9 +784,9 @@ array
 cstdint
 -
 wincolor_sink-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/spdlog-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/spdlog-inl.h
 spdlog/spdlog.h
 -
 spdlog/common.h
@@ -794,7 +794,7 @@ spdlog/common.h
 spdlog/pattern_formatter.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/spdlog.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/spdlog.h
 spdlog/common.h
 -
 spdlog/details/registry.h
@@ -814,13 +814,13 @@ memory
 string
 -
 spdlog-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/spdlog-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/spdlog-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/tweakme.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/tweakme.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include/spdlog/version.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include/spdlog/version.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/src/async.cpp
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/src/async.cpp
 spdlog/async.h
 -
 spdlog/async_logger-inl.h
@@ -830,11 +830,11 @@ spdlog/details/periodic_worker-inl.h
 spdlog/details/thread_pool-inl.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/src/cfg.cpp
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/src/cfg.cpp
 spdlog/cfg/helpers-inl.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/src/color_sinks.cpp
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/src/color_sinks.cpp
 mutex
 -
 spdlog/details/null_mutex.h
@@ -844,11 +844,11 @@ spdlog/async.h
 spdlog/sinks/wincolor_sink-inl.h
 -
 spdlog/sinks/ansicolor_sink-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/src/spdlog/sinks/ansicolor_sink-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/src/spdlog/sinks/ansicolor_sink-inl.h
 spdlog/sinks/stdout_color_sinks-inl.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/src/spdlog/sinks/stdout_color_sinks-inl.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/src/spdlog/sinks/stdout_color_sinks-inl.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/src/file_sinks.cpp
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/src/file_sinks.cpp
 spdlog/details/null_mutex.h
 -
 spdlog/details/file_helper-inl.h
@@ -862,11 +862,11 @@ mutex
 spdlog/sinks/rotating_file_sink-inl.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/src/fmt.cpp
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/src/fmt.cpp
 spdlog/fmt/bundled/format-inl.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/src/spdlog.cpp
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/src/spdlog.cpp
 spdlog/spdlog-inl.h
 -
 spdlog/common-inl.h
@@ -894,7 +894,7 @@ spdlog/details/null_mutex.h
 mutex
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/src/stdout_sinks.cpp
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/src/stdout_sinks.cpp
 mutex
 -
 spdlog/details/null_mutex.h

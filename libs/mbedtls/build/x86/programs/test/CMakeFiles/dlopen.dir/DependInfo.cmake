@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs/test/dlopen.c" "/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/test/CMakeFiles/dlopen.dir/dlopen.c.o"
+  "/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs/test/dlopen.c" "/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/test/CMakeFiles/dlopen.dir/dlopen.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs/test/../../include"
+  "/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs/test/../../include"
   )
 
 # Targets to which this target links.

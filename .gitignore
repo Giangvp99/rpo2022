@@ -1,2 +1,4 @@
 backen.zip
 backen.zip:Zone.Identifier
+libs/mbedtls/build/old/
+libs/spdlog/build/old/

@@ -30,9 +30,10 @@ endmacro()
 find_package(Threads REQUIRED)
 
 set(SPDLOG_FMT_EXTERNAL OFF)
+set(SPDLOG_FMT_EXTERNAL_HO OFF)
 set(config_targets_file spdlogConfigTargets.cmake)
 
-if(SPDLOG_FMT_EXTERNAL)
+if(SPDLOG_FMT_EXTERNAL OR SPDLOG_FMT_EXTERNAL_HO)
     include(CMakeFindDependencyMacro)
     find_dependency(fmt CONFIG)
 endif()

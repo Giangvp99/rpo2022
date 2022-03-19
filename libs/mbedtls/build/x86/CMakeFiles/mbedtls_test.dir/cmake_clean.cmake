@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.o"
   "CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.o"
   "CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.o"
+  "CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_asymmetric_encryption.c.o"
   "CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.o"
   "CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o"
   "CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o"

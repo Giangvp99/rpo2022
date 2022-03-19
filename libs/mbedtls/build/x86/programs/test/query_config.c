@@ -67,7 +67,9 @@
 #include "mbedtls/pk.h"
 #include "mbedtls/pkcs12.h"
 #include "mbedtls/pkcs5.h"
+#if defined(MBEDTLS_HAVE_TIME)
 #include "mbedtls/platform_time.h"
+#endif
 #include "mbedtls/platform_util.h"
 #include "mbedtls/poly1305.h"
 #include "mbedtls/ripemd160.h"
@@ -1862,6 +1864,22 @@ int query_config( const char *config )
     }
 #endif /* MBEDTLS_SHA256_C */
 
+#if defined(MBEDTLS_SHA256_USE_A64_CRYPTO_IF_PRESENT)
+    if( strcmp( "MBEDTLS_SHA256_USE_A64_CRYPTO_IF_PRESENT", config ) == 0 )
+    {
+        MACRO_EXPANSION_TO_STR( MBEDTLS_SHA256_USE_A64_CRYPTO_IF_PRESENT );
+        return( 0 );
+    }
+#endif /* MBEDTLS_SHA256_USE_A64_CRYPTO_IF_PRESENT */
+
+#if defined(MBEDTLS_SHA256_USE_A64_CRYPTO_ONLY)
+    if( strcmp( "MBEDTLS_SHA256_USE_A64_CRYPTO_ONLY", config ) == 0 )
+    {
+        MACRO_EXPANSION_TO_STR( MBEDTLS_SHA256_USE_A64_CRYPTO_ONLY );
+        return( 0 );
+    }
+#endif /* MBEDTLS_SHA256_USE_A64_CRYPTO_ONLY */
+
 #if defined(MBEDTLS_SHA384_C)
     if( strcmp( "MBEDTLS_SHA384_C", config ) == 0 )
     {
@@ -3371,6 +3389,14 @@ void list_config( void )
 #if defined(MBEDTLS_SHA256_C)
     OUTPUT_MACRO_NAME_VALUE(MBEDTLS_SHA256_C);
 #endif /* MBEDTLS_SHA256_C */
+
+#if defined(MBEDTLS_SHA256_USE_A64_CRYPTO_IF_PRESENT)
+    OUTPUT_MACRO_NAME_VALUE(MBEDTLS_SHA256_USE_A64_CRYPTO_IF_PRESENT);
+#endif /* MBEDTLS_SHA256_USE_A64_CRYPTO_IF_PRESENT */
+
+#if defined(MBEDTLS_SHA256_USE_A64_CRYPTO_ONLY)
+    OUTPUT_MACRO_NAME_VALUE(MBEDTLS_SHA256_USE_A64_CRYPTO_ONLY);
+#endif /* MBEDTLS_SHA256_USE_A64_CRYPTO_ONLY */
 
 #if defined(MBEDTLS_SHA384_C)
     OUTPUT_MACRO_NAME_VALUE(MBEDTLS_SHA384_C);

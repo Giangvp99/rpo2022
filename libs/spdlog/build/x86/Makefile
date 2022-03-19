@@ -67,10 +67,10 @@ RM = /home/giangvp99/Android/Sdk/cmake/3.18.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog
+CMAKE_SOURCE_DIR = /home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/build/x86
+CMAKE_BINARY_DIR = /home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/build/x86
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,7 +135,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/home/giangvp99/Android/Sdk/cmake/3.18.1/bin/cpack --config ./CPackSourceConfig.cmake /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/build/x86/CPackSourceConfig.cmake
+	/home/giangvp99/Android/Sdk/cmake/3.18.1/bin/cpack --config ./CPackSourceConfig.cmake /home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/build/x86/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -167,9 +167,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/build/x86/CMakeFiles /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/build/x86//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/build/x86/CMakeFiles /home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/build/x86//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/build/x86/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

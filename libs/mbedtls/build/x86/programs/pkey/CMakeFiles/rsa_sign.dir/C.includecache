@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/bignum.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/bignum.h
 mbedtls/private_access.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/private_access.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/private_access.h
 mbedtls/build_info.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/build_info.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/build_info.h
 stddef.h
 -
 stdint.h
@@ -18,41 +18,41 @@ stdint.h
 stdio.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/build_info.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/build_info.h
 mbedtls/mbedtls_config.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/mbedtls_config.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/mbedtls_config.h
 mbedtls/config_psa.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/config_psa.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/config_psa.h
 mbedtls/check_config.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/check_config.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/check_config.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/check_config.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/check_config.h
 limits.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/config_psa.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/config_psa.h
 psa/crypto_config.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/psa/crypto_config.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/psa/crypto_config.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/md.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/md.h
 mbedtls/private_access.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/private_access.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/private_access.h
 stddef.h
 -
 mbedtls/build_info.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/build_info.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/build_info.h
 mbedtls/platform_util.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/platform_util.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/platform_util.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/platform.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/platform.h
 mbedtls/private_access.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/private_access.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/private_access.h
 mbedtls/build_info.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/build_info.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/build_info.h
 mbedtls/platform_time.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/platform_time.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/platform_time.h
 stdio.h
 -
 stdlib.h
@@ -68,69 +68,69 @@ stdarg.h
 stdarg.h
 -
 platform_alt.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/platform_alt.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/platform_alt.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/platform_time.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/platform_time.h
 mbedtls/build_info.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/build_info.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/build_info.h
 time.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/platform_util.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/platform_util.h
 mbedtls/build_info.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/build_info.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/build_info.h
 stddef.h
 -
 mbedtls/platform_time.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/platform_time.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/platform_time.h
 time.h
 -
 sal.h
 -
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/private_access.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/private_access.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/rsa.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/rsa.h
 mbedtls/private_access.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/private_access.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/private_access.h
 mbedtls/build_info.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/build_info.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/build_info.h
 mbedtls/bignum.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/bignum.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/bignum.h
 mbedtls/md.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/md.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/md.h
 mbedtls/threading.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/threading.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/threading.h
 rsa_alt.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/rsa_alt.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/rsa_alt.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/threading.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/threading.h
 mbedtls/private_access.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/private_access.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/private_access.h
 mbedtls/build_info.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/build_info.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/mbedtls/build_info.h
 stdlib.h
 -
 pthread.h
 -
 threading_alt.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/mbedtls/threading_alt.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/mbedtls/threading_alt.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/psa/crypto_config.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/psa/crypto_config.h
 
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs/pkey/rsa_sign.c
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs/pkey/rsa_sign.c
 mbedtls/build_info.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs/pkey/mbedtls/build_info.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs/pkey/mbedtls/build_info.h
 mbedtls/platform.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs/pkey/mbedtls/platform.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs/pkey/mbedtls/platform.h
 stdio.h
 -
 stdlib.h
 -
 mbedtls/rsa.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs/pkey/mbedtls/rsa.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs/pkey/mbedtls/rsa.h
 mbedtls/md.h
-/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs/pkey/mbedtls/md.h
+/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs/pkey/mbedtls/md.h
 stdio.h
 -
 string.h

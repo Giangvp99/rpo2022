@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "5.10.16.3-microsoft-standard-WSL2")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/giangvp99/Android/Sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake")
+include("/home/giangvp99/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake")
 
 set(CMAKE_SYSTEM "Android-1")
 set(CMAKE_SYSTEM_NAME "Android")

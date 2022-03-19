@@ -1,7 +1,7 @@
 #!/bin/bash
 ABI=x86
 
-ANDROID_NDK=$HOME/Android/Sdk/ndk/23.1.7779620
+ANDROID_NDK=$HOME/Android/Sdk/ndk/21.4.7075529
 TOOL_CHAIN=${ANDROID_NDK}/build/cmake/android.toolchain.cmake
 CMAKE=$HOME/Android/Sdk/cmake/3.18.1/bin/cmake
 

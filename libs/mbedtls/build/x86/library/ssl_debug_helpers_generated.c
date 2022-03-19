@@ -70,6 +70,23 @@ const char *mbedtls_ssl_states_str( mbedtls_ssl_states in )
     return in_to_str[ in ];
 }
 
+const char *mbedtls_ssl_protocol_version_str( mbedtls_ssl_protocol_version in )
+{
+    const char * in_to_str[]=
+    {
+        [MBEDTLS_SSL_VERSION_UNKNOWN] = "MBEDTLS_SSL_VERSION_UNKNOWN",
+        [MBEDTLS_SSL_VERSION_1_2] = "MBEDTLS_SSL_VERSION_1_2",
+        [MBEDTLS_SSL_VERSION_1_3] = "MBEDTLS_SSL_VERSION_1_3",
+    };
+
+    if( in > ( sizeof( in_to_str )/sizeof( in_to_str[0]) - 1 ) ||
+        in_to_str[ in ] == NULL )
+    {
+        return "UNKOWN_VAULE";
+    }
+    return in_to_str[ in ];
+}
+
 const char *mbedtls_tls_prf_types_str( mbedtls_tls_prf_types in )
 {
     const char * in_to_str[]=

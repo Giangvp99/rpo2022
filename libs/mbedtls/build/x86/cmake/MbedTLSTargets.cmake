@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(MbedTLS::mbedcrypto SHARED IMPORTED)
 
 set_target_properties(MbedTLS::mbedcrypto PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/"
 )
 
 # Create imported target MbedTLS::mbedx509
 add_library(MbedTLS::mbedx509 SHARED IMPORTED)
 
 set_target_properties(MbedTLS::mbedx509 PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/"
   INTERFACE_LINK_LIBRARIES "MbedTLS::mbedcrypto"
 )
 
@@ -60,7 +60,7 @@ set_target_properties(MbedTLS::mbedx509 PROPERTIES
 add_library(MbedTLS::mbedtls SHARED IMPORTED)
 
 set_target_properties(MbedTLS::mbedtls PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/"
   INTERFACE_LINK_LIBRARIES "MbedTLS::mbedx509"
 )
 
@@ -68,14 +68,14 @@ set_target_properties(MbedTLS::mbedtls PROPERTIES
 add_library(MbedTLS::mbedcrypto_static STATIC IMPORTED)
 
 set_target_properties(MbedTLS::mbedcrypto_static PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/"
 )
 
 # Create imported target MbedTLS::mbedx509_static
 add_library(MbedTLS::mbedx509_static STATIC IMPORTED)
 
 set_target_properties(MbedTLS::mbedx509_static PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/"
   INTERFACE_LINK_LIBRARIES "MbedTLS::mbedcrypto_static"
 )
 
@@ -83,28 +83,28 @@ set_target_properties(MbedTLS::mbedx509_static PROPERTIES
 add_library(MbedTLS::mbedtls_static STATIC IMPORTED)
 
 set_target_properties(MbedTLS::mbedtls_static PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include/"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include/"
   INTERFACE_LINK_LIBRARIES "MbedTLS::mbedx509_static"
 )
 
 # Import target "MbedTLS::mbedcrypto" for configuration ""
 set_property(TARGET MbedTLS::mbedcrypto APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(MbedTLS::mbedcrypto PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/library/libmbedcrypto.so"
+  IMPORTED_LOCATION_NOCONFIG "/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/library/libmbedcrypto.so"
   IMPORTED_SONAME_NOCONFIG "libmbedcrypto.so"
   )
 
 # Import target "MbedTLS::mbedx509" for configuration ""
 set_property(TARGET MbedTLS::mbedx509 APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(MbedTLS::mbedx509 PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/library/libmbedx509.so"
+  IMPORTED_LOCATION_NOCONFIG "/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/library/libmbedx509.so"
   IMPORTED_SONAME_NOCONFIG "libmbedx509.so"
   )
 
 # Import target "MbedTLS::mbedtls" for configuration ""
 set_property(TARGET MbedTLS::mbedtls APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(MbedTLS::mbedtls PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/library/libmbedtls.so"
+  IMPORTED_LOCATION_NOCONFIG "/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/library/libmbedtls.so"
   IMPORTED_SONAME_NOCONFIG "libmbedtls.so"
   )
 
@@ -112,21 +112,21 @@ set_target_properties(MbedTLS::mbedtls PROPERTIES
 set_property(TARGET MbedTLS::mbedcrypto_static APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(MbedTLS::mbedcrypto_static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "C"
-  IMPORTED_LOCATION_NOCONFIG "/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/library/libmbedcrypto.a"
+  IMPORTED_LOCATION_NOCONFIG "/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/library/libmbedcrypto.a"
   )
 
 # Import target "MbedTLS::mbedx509_static" for configuration ""
 set_property(TARGET MbedTLS::mbedx509_static APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(MbedTLS::mbedx509_static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "C"
-  IMPORTED_LOCATION_NOCONFIG "/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/library/libmbedx509.a"
+  IMPORTED_LOCATION_NOCONFIG "/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/library/libmbedx509.a"
   )
 
 # Import target "MbedTLS::mbedtls_static" for configuration ""
 set_property(TARGET MbedTLS::mbedtls_static APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(MbedTLS::mbedtls_static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "C"
-  IMPORTED_LOCATION_NOCONFIG "/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/library/libmbedtls.a"
+  IMPORTED_LOCATION_NOCONFIG "/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/library/libmbedtls.a"
   )
 
 # This file does not depend on other imported targets which have

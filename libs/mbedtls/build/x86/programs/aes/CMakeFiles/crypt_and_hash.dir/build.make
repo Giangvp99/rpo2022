@@ -62,10 +62,10 @@ RM = /home/giangvp99/Android/Sdk/cmake/3.18.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls
+CMAKE_SOURCE_DIR = /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86
+CMAKE_BINARY_DIR = /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86
 
 # Include any dependencies generated for this target.
 include programs/aes/CMakeFiles/crypt_and_hash.dir/depend.make
@@ -77,17 +77,17 @@ include programs/aes/CMakeFiles/crypt_and_hash.dir/progress.make
 include programs/aes/CMakeFiles/crypt_and_hash.dir/flags.make
 
 programs/aes/CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.o: programs/aes/CMakeFiles/crypt_and_hash.dir/flags.make
-programs/aes/CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.o: /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs/aes/crypt_and_hash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object programs/aes/CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.o"
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/aes && /home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.o -c /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs/aes/crypt_and_hash.c
+programs/aes/CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.o: /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs/aes/crypt_and_hash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object programs/aes/CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.o"
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/aes && /home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.o -c /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs/aes/crypt_and_hash.c
 
 programs/aes/CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.i"
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/aes && /home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs/aes/crypt_and_hash.c > CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.i
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/aes && /home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs/aes/crypt_and_hash.c > CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.i
 
 programs/aes/CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.s"
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/aes && /home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giangvp99/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs/aes/crypt_and_hash.c -o CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.s
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/aes && /home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/giangvp99/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs/aes/crypt_and_hash.c -o CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.s
 
 # Object files for target crypt_and_hash
 crypt_and_hash_OBJECTS = \
@@ -95,21 +95,22 @@ crypt_and_hash_OBJECTS = \
 
 # External object files for target crypt_and_hash
 crypt_and_hash_EXTERNAL_OBJECTS = \
-"/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o" \
-"/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o" \
-"/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.o" \
-"/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.o" \
-"/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.o" \
-"/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.o" \
-"/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o" \
-"/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o" \
-"/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o" \
-"/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o" \
-"/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o" \
-"/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o" \
-"/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o" \
-"/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/random.c.o" \
-"/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o"
+"/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o" \
+"/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o" \
+"/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.o" \
+"/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.o" \
+"/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.o" \
+"/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_asymmetric_encryption.c.o" \
+"/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.o" \
+"/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o" \
+"/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o" \
+"/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o" \
+"/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o" \
+"/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o" \
+"/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o" \
+"/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o" \
+"/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/random.c.o" \
+"/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o"
 
 programs/aes/crypt_and_hash: programs/aes/CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.o
 programs/aes/crypt_and_hash: CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o
@@ -117,6 +118,7 @@ programs/aes/crypt_and_hash: CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o
 programs/aes/crypt_and_hash: CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.o
 programs/aes/crypt_and_hash: CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.o
 programs/aes/crypt_and_hash: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.o
+programs/aes/crypt_and_hash: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_asymmetric_encryption.c.o
 programs/aes/crypt_and_hash: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.o
 programs/aes/crypt_and_hash: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o
 programs/aes/crypt_and_hash: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o
@@ -130,8 +132,8 @@ programs/aes/crypt_and_hash: CMakeFiles/mbedtls_test.dir/tests/src/threading_hel
 programs/aes/crypt_and_hash: programs/aes/CMakeFiles/crypt_and_hash.dir/build.make
 programs/aes/crypt_and_hash: library/libmbedcrypto.so
 programs/aes/crypt_and_hash: programs/aes/CMakeFiles/crypt_and_hash.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable crypt_and_hash"
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/aes && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/crypt_and_hash.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable crypt_and_hash"
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/aes && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/crypt_and_hash.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 programs/aes/CMakeFiles/crypt_and_hash.dir/build: programs/aes/crypt_and_hash
@@ -139,10 +141,10 @@ programs/aes/CMakeFiles/crypt_and_hash.dir/build: programs/aes/crypt_and_hash
 .PHONY : programs/aes/CMakeFiles/crypt_and_hash.dir/build
 
 programs/aes/CMakeFiles/crypt_and_hash.dir/clean:
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/aes && $(CMAKE_COMMAND) -P CMakeFiles/crypt_and_hash.dir/cmake_clean.cmake
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/aes && $(CMAKE_COMMAND) -P CMakeFiles/crypt_and_hash.dir/cmake_clean.cmake
 .PHONY : programs/aes/CMakeFiles/crypt_and_hash.dir/clean
 
 programs/aes/CMakeFiles/crypt_and_hash.dir/depend:
-	cd /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/programs/aes /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86 /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/aes /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/x86/programs/aes/CMakeFiles/crypt_and_hash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/programs/aes /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86 /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/aes /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/x86/programs/aes/CMakeFiles/crypt_and_hash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : programs/aes/CMakeFiles/crypt_and_hash.dir/depend
 

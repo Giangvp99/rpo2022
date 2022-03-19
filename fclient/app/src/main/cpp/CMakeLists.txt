@@ -27,18 +27,18 @@ add_definitions(-DSPDLOG_COMPILED_LIB)
 add_library(spdlog STATIC IMPORTED)
 set_target_properties(
         spdlog PROPERTIES IMPORTED_LOCATION
-        /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/build/${ANDROID_ABI}/libspdlog.a
+        /home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/build/${ANDROID_ABI}/libspdlog.a
 )
 
 add_library(mbedcrypto SHARED IMPORTED)
 set_target_properties(
         mbedcrypto PROPERTIES IMPORTED_LOCATION
-        /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/build/${ANDROID_ABI}/library/libmbedcrypto.so
+        /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/build/${ANDROID_ABI}/library/libmbedcrypto.so
         )
 target_include_directories(
         fclient PUBLIC
-        /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/spdlog/spdlog/include
-        /home/giangvp99/AndroidStudioProjects/ru/iu3/libs/mbedtls/mbedtls/include
+        /home/giangvp99/AndroidStudioProjects/rpo2022/libs/spdlog/spdlog/include
+        /home/giangvp99/AndroidStudioProjects/rpo2022/libs/mbedtls/mbedtls/include
 )
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by
