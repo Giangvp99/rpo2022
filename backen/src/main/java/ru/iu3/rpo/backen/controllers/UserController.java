@@ -6,14 +6,12 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
+import ru.iu3.rpo.backen.models.Museum;
 import ru.iu3.rpo.backen.models.User;
 import ru.iu3.rpo.backen.repositories.MuseumRepository;
 import ru.iu3.rpo.backen.repositories.UserRepository;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 
 @RestController
 @RequestMapping("/api/v1")
@@ -59,5 +57,24 @@ public class UserController {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "user_not_found");
         }
         return ResponseEntity.ok(user);
+    }
+    @PostMapping("/users/{id}/addmuseums")
+    public ResponseEntity<Object> addMuseums(@PathVariable(value = "id") Long userId, @Validated @RequestBody Set<Museum> museums) {
+        Optional<User> currentUser = userRepository.findById(userId);
+        int count = 0;
+        if(currentUser.isPresent()){
+            User user = currentUser.get();
+            for(Museum museum: museums){
+                Optional<Museum> currentMuseum = museumRepository.findById(museum.id);
+                if(currentMuseum.isPresent()){
+                    user.addMuseum(currentMuseum.get());
+                    count++;
+                }
+            }
+            userRepository.save(user);
+        }
+        Map<String, String> response = new HashMap<>();
+        response.put("count", String.valueOf(count));
+        return ResponseEntity.ok(response);
     }
 }
