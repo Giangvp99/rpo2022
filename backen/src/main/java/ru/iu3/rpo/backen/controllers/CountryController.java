@@ -6,6 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
+import ru.iu3.rpo.backen.models.Artist;
 import ru.iu3.rpo.backen.models.Country;
 import ru.iu3.rpo.backen.repositories.CountryRepository;
 
@@ -68,5 +69,14 @@ public class CountryController {
             response.put("delete",Boolean.FALSE);
         }
         return response;
+    }
+
+    @GetMapping("/countries/{id}/artists")
+    public ResponseEntity<List<Artist>> getArtistsCountry(@PathVariable(value="id") Long countryId){
+        Optional<Country> currentCountry = countryRepository.findById(countryId);
+        if(currentCountry.isPresent()){
+            return ResponseEntity.ok(currentCountry.get().artists);
+        }
+        return ResponseEntity.ok(new ArrayList<Artist>());
     }
 }
