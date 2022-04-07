@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity implements TransactionEvents
         //startActivityForResult(it, 0);
         activityResultLauncher.launch(it);*/
         new Thread(()-> {
-            try {
+            /*try {
                 byte[] trd = StringToHex("9F0206000000000100");
                 boolean ok = transaction(trd);
                 runOnUiThread(()-> {
@@ -116,7 +116,9 @@ public class MainActivity extends AppCompatActivity implements TransactionEvents
                 });
             } catch (Exception ex) {
                 // todo: log error
-            }
+            }*/
+            byte[] trd = StringToHex("9F0206000000000100");
+            transaction(trd);
         }).start();
     }
 /*    @Override
@@ -149,6 +151,12 @@ public class MainActivity extends AppCompatActivity implements TransactionEvents
         return pin;
     }
 
+    @Override
+    public void transactionResult(boolean result) {
+        runOnUiThread(()-> {
+            Toast.makeText(MainActivity.this, result ? "ok" : "failed", Toast.LENGTH_SHORT);
+        });
+    }
 
 
 
