@@ -1,2 +1,19 @@
-package ru.iu3.rpo.backen.tools;public class Utils {
+package ru.iu3.rpo.backen.tools;
+import org.springframework.security.crypto.codec.Hex;
+import java.security.MessageDigest;
+public class Utils {
+    public static String ComputerHash(String pwd, String salt)
+    {
+        MessageDigest digest;
+        byte[] w = Hex.decode(new String(Hex.encode(pwd.getBytes())) + salt);
+        try {
+            digest = MessageDigest.getInstance("SHA-256");
+        }
+        catch (Exception ex) {
+            return new String();
+        }
+        return new String(Hex.encode(digest.digest(w)));
+    }
+
 }
+
