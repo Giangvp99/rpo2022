@@ -31,8 +31,8 @@ public class LoginController {
                 User user = currentUser.get();
                 String hash1 = user.password;
                 String salt = user.salt;
-                String hash2 = Utils.ComputerHash(pwd, salt);
-                if(hash1.equals(hash2)){
+                String hash2 = Utils.ComputeHash(pwd, salt);
+                if(hash1.toLowerCase().equals(hash2.toLowerCase())){
                     String token = UUID.randomUUID().toString();
                     user.token = token;
                     user.activity = LocalDateTime.now();
@@ -42,6 +42,20 @@ public class LoginController {
             }
         }
         return new ResponseEntity<Object>(HttpStatus.UNAUTHORIZED);
+    }
+    @GetMapping("/logout")
+    public ResponseEntity logout(@RequestHeader("Authorization") String token) {
+        if (token != null && !token.isEmpty()) {
+            token = StringUtils.removeStart(token, "Bearer").trim();
+            Optional<User> currentUser = userRepository.findByToken(token);
+            if(currentUser.isPresent()){
+                User user = currentUser.get();
+                user.token = null;
+                userRepository.save(user);
+                return new ResponseEntity(HttpStatus.OK);
+            }
+        }
+        return new ResponseEntity(HttpStatus.UNAUTHORIZED);
     }
 
 }
