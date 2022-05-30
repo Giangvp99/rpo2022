@@ -9,8 +9,10 @@ import org.springframework.web.server.ResponseStatusException;
 import ru.iu3.rpo.backen.models.Artist;
 import ru.iu3.rpo.backen.models.Country;
 import ru.iu3.rpo.backen.repositories.CountryRepository;
+import ru.iu3.rpo.backen.tools.DataValidationException;
 
 import java.util.*;
+@CrossOrigin(origins="http://localhost:3000")
 
 @RestController
 @RequestMapping("/api/v1")
@@ -24,21 +26,24 @@ public class CountryController {
     }
 
     @PostMapping("/countries")
-    public ResponseEntity<Object> createCountry(@Validated @RequestBody Country country){
+    public ResponseEntity<Object> createCountry(@Validated @RequestBody Country country) throws DataValidationException{
         try {
             Country nc = countryRepository.save(country);
             return new ResponseEntity<Object>(nc, HttpStatus.OK);
         }catch(Exception ex){
             String error;
             if(ex.getMessage().contains("countries.name_UNIQUE"))
-                error="country_already_exists";
+                throw new DataValidationException("country_already_exist");
+            else if(ex.getMessage().contains("null"))
+                throw new DataValidationException("country_is_required");
             else
-                error="undefined_error";
-            Map<String,String>map =new HashMap<>();
-            map.put("error",error);
-            return new ResponseEntity<Object>(map,HttpStatus.OK);
+                throw new DataValidationException("undefined_error");
         }
     }
+    @GetMapping("/countries/{id}")
+    public ResponseEntity<Country> getCountry(@PathVariable(value = "id") Long countryId) throws DataValidationException{
+        Country country = countryRepository.findById(countryId).orElseThrow(()->new DataValidationException("Counntry with this index can't be found"));
+        return ResponseEntity.ok(country);}
 
     @PutMapping("/countries/{id}")
     public ResponseEntity<Country> updateCountry(@PathVariable(value="id") Long countryId,@Validated @RequestBody Country countryDetails){
@@ -78,5 +83,11 @@ public class CountryController {
             return ResponseEntity.ok(currentCountry.get().artists);
         }
         return ResponseEntity.ok(new ArrayList<Artist>());
+    }
+
+    @PostMapping("/deletecountries")
+    public ResponseEntity deleteCountries(@Validated @RequestBody List<Country> countries) {
+        countryRepository.deleteAll(countries);
+        return new ResponseEntity(HttpStatus.OK);
     }
 }

@@ -1,4 +1,4 @@
-import { faHome, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faHome, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
@@ -27,6 +27,11 @@ class NavigationBarClass extends React.Component {
         let uname = Utils.getUserName();
         return (
             <Navbar bg="light" expand="lg">
+                <button type="button"
+                    className="btn btn-outline-secondary mr-2"
+                    onClick={this.props.toggleSideBar}>
+                    <FontAwesomeIcon icon={faBars} />
+                </button>
                 <Navbar.Brand><FontAwesomeIcon icon={faHome} />{' '}My RPO</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
