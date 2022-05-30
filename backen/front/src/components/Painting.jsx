@@ -5,27 +5,27 @@ import { Form } from "react-bootstrap";
 import BackendService from "../services/BackendService";
 import { useNavigate, useParams } from 'react-router-dom';
 import { store, alertActions } from "../utils/Rdx"
-const Country = props => {
+const Painting = props => {
     const [value, setValue] = useState("");
     const [hidden, setHidden] = useState(false);
-    // const [countries, setCountries] = useState([])
+    const [countries, setCountries] = useState([])
     const navigate = useNavigate();
     let id = useParams().id;
     useEffect(() => {
         if (parseInt(id) !== -1) {
-            BackendService.getAllCountries(id)
+            BackendService.retrieveCountry(id)
                 .then((res) => {
                     setValue(res.data.name)
                 })
                 .catch(() => setHidden(true));
         }
-        // BackendService.retrieveAllCountries()
-        //     .then(
-        //         resp => {
-        //             setCountries(resp.data);
-        //             setHidden(false);
-        //         })
-        //     .catch(() => { setHidden(true) })
+        BackendService.retrieveAllCountries()
+            .then(
+                resp => {
+                    setCountries(resp.data);
+                    setHidden(false);
+                })
+            .catch(() => { setHidden(true) })
 
     }, [])
     const handleChange = e => {
@@ -35,13 +35,13 @@ const Country = props => {
     const onSubmit = event => {
         event.preventDefault();
         event.stopPropagation();
+        console.log(countries.find(v => v.name === value))
         let err = null;
         if (value === "") {
             err = "Name of country is required";
+        } else if (countries.find(v => v.name === value)) {
+            err = "This country is already in the database"
         }
-        // else if (countries.find(v => v.name === value)) {
-        //     err = "This country is already in the database"
-        // }
         if (err) {
             store.dispatch(alertActions.error(err));
             return null
@@ -61,7 +61,7 @@ const Country = props => {
     return (
         <div className="m-4">
             <div className="row my-2">
-                <h3>Страна</h3>
+                <h3>Страны</h3>
                 <div className="btn-toolbar">
                     <div className="btn-group ms-auto">
                         <button className="btn btn-outline-secondary"
@@ -94,4 +94,4 @@ const Country = props => {
         </div>
     );
 }
-export default Country;
+export default Painting;

@@ -9,6 +9,10 @@ const SideBar = props => {
             {props.expanded &&
                 <Nav className={"flex-column my-sidebar my-sidebar-expanded"}>
                     <Nav.Item><Nav.Link as={Link} to="/countries"><FontAwesomeIcon icon={faGlobe} />{' '}Страны</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link as={Link} to="/artists"><FontAwesomeIcon icon={faGlobe} />{' '}Художники</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link as={Link} to="/museums"><FontAwesomeIcon icon={faGlobe} />{' '}Музеи</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link as={Link} to="/paintings"><FontAwesomeIcon icon={faGlobe} />{' '}Картины</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link as={Link} to="/users"><FontAwesomeIcon icon={faGlobe} />{' '}Пользователи</Nav.Link></Nav.Item>
                 </Nav>
             }
             {!props.expanded &&

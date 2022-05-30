@@ -5,7 +5,7 @@ import Alert from './Alert'
 import BackendService from "../services/BackendService";
 import { useNavigate } from 'react-router-dom';
 import Pagination from "./Pagination"
-const CountryList = props => {
+const PaintingList = props => {
     const [message, setMessage] = useState();
     const [countries, setCountries] = useState([]);
     const [selectedCountries, setSelectedCountries] = useState([]);
@@ -79,7 +79,7 @@ const CountryList = props => {
     }
     const onDelete = () => {
         BackendService.deleteArtists(selectedCountries)
-            .then(() => refreshCountries(page))
+            .then(() => refreshCountries())
             .catch(() => { }
             )
     }
@@ -91,7 +91,7 @@ const CountryList = props => {
     return (
         <div className="m-4">
             <div className="row my-2">
-                <h3>Страны</h3>
+                <h3>Картины</h3>
                 <div className="btn-toolbar">
                     <div className="btn-group ms-auto">
                         <button className="btn btn-outline-secondary"
@@ -162,4 +162,4 @@ const CountryList = props => {
         </div>
     )
 }
-export default CountryList;
+export default PaintingList;
