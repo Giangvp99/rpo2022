@@ -17,6 +17,7 @@ import UserList from './components/UserList';
 import User from './components/User';
 import PaintingList from './components/PaintingList';
 import Painting from './components/Painting';
+import Account from './components/Account';
 
 const ProtectedRoute = ({ children }) => {
   let user = Utils.getUser();
@@ -46,6 +47,7 @@ const App = props => {
               <Route path="users/:id" element={<ProtectedRoute><User /></ProtectedRoute>} />
               <Route path="paintings" element={<ProtectedRoute><PaintingList /></ProtectedRoute>} />
               <Route path="paintings/:id" element={<ProtectedRoute><Painting /></ProtectedRoute>} />
+              <Route path="account" element={<ProtectedRoute><Account /></ProtectedRoute>} />
             </Routes>
           </div>
         </div>

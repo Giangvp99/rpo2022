@@ -18,7 +18,6 @@ import ru.iu3.rpo.backen.tools.DataValidationException;
 import java.util.*;
 @CrossOrigin(origins="http://localhost:3000")
 
-
 @RestController
 @RequestMapping("/api/v1")
 public class ArtistController {
@@ -30,6 +29,9 @@ public class ArtistController {
 
     @GetMapping("/artists")
     public Page<Artist> getAllArtists(@RequestParam("page") int page, @RequestParam("limit") int limit) {
+        if(limit==0){
+            limit=Integer.MAX_VALUE;
+        }
         return artistRepository.findAll(PageRequest.of(page, limit, Sort.by(Sort.Direction.ASC, "name")));
     }
 

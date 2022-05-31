@@ -25,8 +25,12 @@ public class CountryController {
 
     @GetMapping("/countries")
     public Page<Country> getAllCountries(@RequestParam("page") int page, @RequestParam("limit") int limit) {
+        if(limit==0){
+            limit=Integer.MAX_VALUE;
+        }
         return countryRepository.findAll(PageRequest.of(page, limit, Sort.by(Sort.Direction.ASC, "name")));
     }
+
     @PostMapping("/countries")
     public ResponseEntity<Object> createCountry(@Validated @RequestBody Country country) throws DataValidationException{
         try {
@@ -44,8 +48,13 @@ public class CountryController {
     }
     @GetMapping("/countries/{id}")
     public ResponseEntity<Country> getCountry(@PathVariable(value = "id") Long countryId) throws DataValidationException{
-        Country country = countryRepository.findById(countryId).orElseThrow(()->new DataValidationException("Counntry with this index can't be found"));
-        return ResponseEntity.ok(country);}
+        try{
+            Country country = countryRepository.findById(countryId).get();
+            return ResponseEntity.ok(country);
+        } catch (Exception ex){
+            throw new DataValidationException("Counntry with this index can't be found");
+        }
+        }
 
     @PutMapping("/countries/{id}")
     public ResponseEntity<Country> updateCountry(@PathVariable(value="id") Long countryId,@Validated @RequestBody Country countryDetails){
