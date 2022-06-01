@@ -43,7 +43,6 @@ const Artist = (props) => {
       return null;
     }
     let artist = { id: id, ...value };
-    console.log(artist);
     if (parseInt(artist.id) === -1) {
       BackendService.createArtist(artist)
         .then(() => navigate(`/artists`))
